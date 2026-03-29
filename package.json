@@ -1,0 +1,13 @@
+{
+  "name": "carbonlens",
+  "version": "1.0.0",
+  "description": "Personal carbon footprint tracker with AI recommendations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "ANTHROPIC_API_KEY=your-key-here node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
